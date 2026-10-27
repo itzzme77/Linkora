@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Linkora</string>
+    <string name="mesh_chat_tagline">Offline Privacy-First Mesh Messenger</string>
+
+    <!-- Navigation -->
+    <string name="nav_chats">Chats</string>
+    <string name="nav_radar">Mesh Radar</string>
+    <string name="nav_identity">Identity</string>
+
+    <!-- Statuses -->
+    <string name="status_mesh_active">Mesh Active</string>
+    <string name="status_mesh_inactive">Mesh Paused</string>
+
+
+    <!-- Chat detail -->
+    <string name="hint_type_message">Type encrypted message…</string>
+    <string name="send">Send</string>
+    <string name="e2ee_security_banner">🔒 End-to-End Encrypted via ECDH + AES-256-GCM</string>
+</resources>

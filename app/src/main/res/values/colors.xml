@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Brand / Mesh Palette -->
+    <color name="primary">#006C50</color>
+    <color name="primary_dark">#004D38</color>
+    <color name="primary_light">#8CF5CE</color>
+    <color name="primary_container">#D1F5E7</color>
+    <color name="on_primary_container">#002116</color>
+    <color name="secondary">#4D6357</color>
+    <color name="secondary_container">#CFE9DA</color>
+
+    <!-- Backgrounds & Surfaces -->
+    <color name="background_light">#F6FAF7</color>
+    <color name="surface_card">#FFFFFF</color>
+    <color name="surface_variant">#DEE5E0</color>
+
+    <!-- Text -->
+    <color name="text_primary">#171D1A</color>
+    <color name="text_secondary">#526059</color>
+    <color name="text_muted">#8A948F</color>
+
+    <!-- Status Colors -->
+    <color name="status_verified">#059669</color>
+    <color name="status_unverified">#D97706</color>
+    <color name="status_changed">#DC2626</color>
+    <color name="status_relayed">#2563EB</color>
+
+    <!-- Chat Bubbles -->
+    <color name="bubble_outgoing">#006C50</color>
+    <color name="bubble_incoming">#E7EFEA</color>
+    <color name="bubble_outgoing_text">#FFFFFF</color>
+    <color name="bubble_incoming_text">#171D1A</color>
+
+    <!-- Radar Sweep -->
+    <color name="radar_ping">#10B981</color>
+    <color name="radar_grid">#33006C50</color>
+</resources>

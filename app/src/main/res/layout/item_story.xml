@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/storyRoot"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:focusable="true"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingHorizontal="6dp">
+
+    <FrameLayout
+        android:id="@+id/storyAvatarFrame"
+        android:layout_width="64dp"
+        android:layout_height="64dp">
+
+        <!-- Outer Ring -->
+        <View
+            android:id="@+id/vStoryRing"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:background="@drawable/bg_story_ring"
+            android:visibility="visible" />
+
+        <!-- Avatar Image -->
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/ivStoryAvatar"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:layout_gravity="center"
+            android:scaleType="centerCrop"
+            app:shapeAppearanceOverlay="@style/ShapeAppearance.Circle" />
+
+        <!-- Add Story Icon Frame (+ inside circle) -->
+        <FrameLayout
+            android:id="@+id/frameAddStory"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:layout_gravity="center"
+            android:background="@drawable/bg_add_story"
+            android:visibility="gone">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_plus_white" />
+        </FrameLayout>
+
+        <!-- Small Badge (e.g. green online dot or blue + badge) -->
+        <View
+            android:id="@+id/vStoryBadge"
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:layout_gravity="bottom|end"
+            android:layout_margin="2dp"
+            android:background="@drawable/bg_online_dot" />
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/tvStoryName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:ellipsize="end"
+        android:maxWidth="68dp"
+        android:maxLines="1"
+        tools:text="Name"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp"
+        android:textStyle="normal" />
+
+</LinearLayout>
